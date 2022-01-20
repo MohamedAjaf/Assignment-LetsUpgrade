@@ -1,15 +1,16 @@
 print("Assignment-4\n\n\nFirst Function\n\n")
 
-a=int(input("Enter an integer: "))
-b=float(input("Enter an float number: "))
-c=input("Enter a character: ")
-d=input("Enter a string: ")
-e=input("Enter a boolean value: ")
-lst=[a,b,c,d]
-tup=(a,b,c,d)
 
 
 def func1():
+    a=int(input("Enter an integer: "))
+    b=float(input("Enter an float number: "))
+    c=input("Enter a character: ")
+    d=input("Enter a string: ")
+    e=input("Enter a boolean value: ")
+    lst=[a,b,c,d]
+    tup=(a,b,c,d)
+
     print("Integer: ",a)
     print("Float: ",b)
     print("Character: ",c)
@@ -31,6 +32,7 @@ def func2():
     aim=input("What is your aim in life: ")
     a=[name,age,gender,mt,aim, country]
     print('\n')
+    
     print(f"Name:{a[0]} \nAge:{a[1]} \nGender:{a[2]} \nMother Tongue:{a[3]} \nCountry:{a[5]}\nAim: {a[4]}")
 
 func2()
